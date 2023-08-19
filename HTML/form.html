@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback</title>
+  </head>
+  <body>
+    <h1>Blog Feedback Form: Share Your Thoughts</h1>
+    <p>
+      The purpose of this feedback form is to collect insights and opinions from
+      our readers regarding their experience with our blog. By sharing their
+      feedback, readers can help us understand what aspects of our blog they
+      find valuable, areas that might need improvement, and their preferences
+      for content, design, and engagement. This information will guide us in
+      enhancing our content, ensuring it aligns better with our readers'
+      interests and needs. We highly value the feedback provided, as it enables
+      us to create a more enriching and enjoyable experience for our audience.
+    </p>
+    <hr />
+    <form action="https://httpbin.org/get">
+      <h3>Personal info:</h3>
+      <p>
+        <label for="FirstName">First Name:</label>
+        <input
+          type="text"
+          required
+          placeholder="Praveen"
+          id="FirstName"
+          autocomplete="on"
+          autofocus
+        />
+      </p>
+      <p>
+        <label for="LastName">Last Name:</label>
+        <input
+          type="text"
+          required
+          placeholder="Kumar"
+          id="LastName"
+          autocomplete="on"
+        />
+      </p>
+      <p>
+        <label for="Email">Email:</label>
+        <input
+          type="email"
+          name="Email"
+          id="Email"
+          required
+          autocomplete="on"
+        />
+      </p>
+
+      <h3>Feedback Section:</h3>
+      <p>Rate us from 1-10:</p>
+      <p>
+        <label for="Rating1">Content Quality:</label>
+        <input
+          type="number"
+          name="Rating"
+          id="Rating1"
+          min="1"
+          max="10"
+          placeholder="1-10"
+        />
+      </p>
+      <p>
+        <label for="Quality">Writing style:</label>
+        <input
+          type="number"
+          name="Quality"
+          id="Quality"
+          min="1"
+          max="10"
+          placeholder="1-10"
+        />
+      </p>
+      <p>
+        <label for="Visuals">Writing style:</label>
+        <input
+          type="number"
+          name="Visuals"
+          id="Visuals"
+          min="1"
+          max="10"
+          placeholder="1-10"
+        />
+      </p>
+    </form>
+  </body>
+</html>
