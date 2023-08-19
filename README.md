@@ -49,6 +49,17 @@ If you encounter any bugs or have ideas for new features, please open an issue o
 
 Thank you for taking the time to contribute to Everyday-Echoes and helping us make it better for everyone.
 Feel free to customize this template to match your project's specific contribution guidelines, coding standards, and workflow. This example provides a step-by-step guide for contributing, along with guidelines for code quality and bug reports/feature requests.
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+The MIT License is a permissive open-source license that allows you to use, modify, distribute, and even sell this project's code, as long as you include the original copyright notice and disclaimer. It comes with no warranty or guarantee of fitness for any purpose.
+
+You can find the full text of the license in the [LICENSE](LICENSE) file.
+## About Me
+I'm a 1st year student at GLA University Mathura. I'm persuing my Bachlor's in CSE.
+You can contact me :
+praveenkumar042023@gmail.com
 
 
 
